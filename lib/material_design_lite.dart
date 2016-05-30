@@ -1,7 +1,3 @@
 library material_design_lite;
 
-import 'dart:js';
-
-upgradeAllRegistered() {
-  context['componentHandler']?.callMethod('upgradeAllRegistered');
-}
+export 'src/material_design_lite.dart';
